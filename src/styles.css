@@ -16,6 +16,7 @@ body {
     display: grid;
     justify-content: center;
 
+    gap: var(--body-gap);
     /* display: grid;
     grid-auto-flow: row; */
 }
