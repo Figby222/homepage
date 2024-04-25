@@ -114,6 +114,9 @@ main {
     gap: 10px;
 }
 
+.project-description {
+    grid-column: 1 / -1;
+}
 @media (min-width: 350px) {
     :root {
         --body-padding: 20px;
