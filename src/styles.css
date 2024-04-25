@@ -88,7 +88,12 @@ main {
     display: grid;
     justify-content: center;
     
-    gap: calc(var(--body-gap) / 2)
+    gap: var(--body-gap)
+}
+
+.project-image {
+    max-width: 100%;
+    min-height: auto;
 }
 @media (min-width: 350px) {
     :root {
