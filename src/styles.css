@@ -91,6 +91,10 @@ main {
     gap: var(--body-gap)
 }
 
+.project {
+    background-color: green;
+}
+
 .project-image {
     max-width: 100%;
     min-height: auto;
