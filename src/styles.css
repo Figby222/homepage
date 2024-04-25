@@ -118,6 +118,11 @@ main {
     text-align: center;
 }
 
+.icons {
+    display: grid;
+    grid-template-columns: 20px 20px;
+}
+
 .project-description {
     grid-column: 1 / -1;
     margin-bottom: 20px;
