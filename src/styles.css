@@ -32,6 +32,7 @@ h2 {
 
 p {
     font-size: 2.2rem;
+    margin: 0;
 }
 
 .header-image-container {
@@ -60,6 +61,7 @@ p {
 .header-content{ 
     display: grid;
     justify-items: center;
+    gap: var(--body-gap)
 }
 
 .about-me-title {
