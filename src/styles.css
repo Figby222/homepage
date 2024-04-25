@@ -16,6 +16,10 @@ h1 {
     font-size: 6rem;
 }
 
+h2 {
+    font-size: 5rem;
+}
+
 .header-image-container {
     background: url(./assets/images/placeholder-portrait.jpg);
     background-size: cover;
