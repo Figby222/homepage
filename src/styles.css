@@ -121,6 +121,8 @@ main {
 .icons {
     display: grid;
     grid-template-columns: 20px 20px;
+
+    gap: 10px;
 }
 
 .project-description {
