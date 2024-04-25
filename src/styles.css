@@ -51,3 +51,7 @@ p {
     display: grid;
     justify-content: center;
 }
+
+.about-me-title {
+    margin: 0;
+}
