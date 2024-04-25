@@ -1,3 +1,7 @@
+:root {
+    --header-image-text-color: white;
+}
+
 body {
     margin: 0;
     padding: 7vw;
@@ -15,5 +19,5 @@ body {
 
 .header-image-text {
     margin: 0;
-    color: white;
+    color: var(--header-image-text-color);
 }
