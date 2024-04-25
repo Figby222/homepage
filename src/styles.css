@@ -5,7 +5,7 @@
 :root {
     --header-image-text-color: white;
     --body-gap: 10vw;
-    --body-padding: 7vw;
+    --body-padding: 10px;
 }
 
 body {
@@ -79,4 +79,10 @@ p {
 .header-icon-link {
     min-width: 100px;
     height: auto;
+}
+
+@media (min-width: 350px) {
+    :root {
+        /* --body-padding: 20px; */
+    }
 }
