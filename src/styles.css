@@ -5,11 +5,12 @@
 :root {
     --header-image-text-color: white;
     --body-gap: 10vw;
+    --body-padding: 7vw;
 }
 
 body {
     margin: 0;
-    padding: 7vw;
+    padding: var(--body-padding);
     background: dodgerblue;
 
     /* display: grid;
