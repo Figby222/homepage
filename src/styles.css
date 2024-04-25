@@ -71,4 +71,5 @@ p {
 .header-icons-container {
     display: grid;
     grid-template-columns: auto auto;
+    justify-items: center;
 }
