@@ -38,3 +38,8 @@ h1 {
     font-family: "headerFont", sans-serif, Helvetica, Arial;
     letter-spacing: .2rem;
 }
+
+.header-content{ 
+    display: grid;
+    justify-content: center;
+}
