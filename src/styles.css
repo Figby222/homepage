@@ -12,6 +12,10 @@ body {
     background: dodgerblue;
 }
 
+h1 {
+    font-size: 6rem;
+}
+
 .header-image-container {
     background: url(./assets/images/placeholder-portrait.jpg);
     background-size: cover;
@@ -31,7 +35,6 @@ body {
 .header-image-text {
     margin: 2vw;
     color: var(--header-image-text-color);
-    font-size: 6rem;
     font-family: "headerFont", sans-serif, Helvetica, Arial;
     letter-spacing: .2rem;
 }
