@@ -65,3 +65,8 @@ p {
 .about-me-title {
     margin: 0;
 }
+
+.header-icons-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
