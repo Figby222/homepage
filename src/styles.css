@@ -22,7 +22,7 @@ body {
 }
 
 .header-image-text {
-    margin: 0;
+    margin: 2vw;
     color: var(--header-image-text-color);
     font-size: 6rem;
 }
