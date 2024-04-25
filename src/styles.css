@@ -83,9 +83,13 @@ p {
     justify-content: center;
     gap: 25px;
 }
+
+main {
+    display: grid;
+    justify-content: center;
     
     gap: calc(var(--body-gap) / 2)
-
+}
 @media (min-width: 350px) {
     :root {
         --body-padding: 20px;
