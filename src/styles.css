@@ -73,13 +73,8 @@ p {
 
 .header-icons-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    justify-items: center;
-}
-
-.header-icon-link {
-    min-width: 100px;
-    height: auto;
+    grid-template-columns: 50px 50px;
+    justify-content: center;
 }
 
 @media (min-width: 350px) {
