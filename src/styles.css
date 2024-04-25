@@ -77,16 +77,14 @@ p {
     gap: var(--body-gap)
 }
 
-.about-me-title {
-    margin: 0;
-}
-
 .header-icons {
     display: grid;
     grid-template-columns: 50px 50px;
     justify-content: center;
     gap: 25px;
 }
+    
+    gap: calc(var(--body-gap) / 2)
 
 @media (min-width: 350px) {
     :root {
