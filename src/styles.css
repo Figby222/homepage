@@ -4,6 +4,7 @@
 
 :root {
     --header-image-text-color: white;
+    --body-gap: 2vw;
 }
 
 body {
