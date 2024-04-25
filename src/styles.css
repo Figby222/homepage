@@ -91,6 +91,13 @@ main {
     gap: var(--body-gap) */
 }
 
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit minmax(auto, 1fr));
+
+    gap: var(--body-gap);
+}
+
 .project {
     background-color: green;
 }
