@@ -11,6 +11,15 @@ body {
     margin: 0;
     padding: 7vw;
     background: dodgerblue;
+
+    /* display: grid;
+    grid-auto-flow: row; */
+}
+
+header {
+    display: grid;
+    grid-auto-flow: row;
+    gap: var(--body-gap);
 }
 
 h1 {
