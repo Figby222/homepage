@@ -85,10 +85,10 @@ p {
 }
 
 main {
-    display: grid;
+    /* display: grid;
     justify-content: center;
     
-    gap: var(--body-gap)
+    gap: var(--body-gap) */
 }
 
 .project {
