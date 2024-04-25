@@ -114,6 +114,10 @@ main {
     gap: 10px;
 }
 
+.project-title {
+    text-align: center;
+}
+
 .project-description {
     grid-column: 1 / -1;
     margin-bottom: 20px;
