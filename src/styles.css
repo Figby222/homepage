@@ -21,8 +21,15 @@ body {
     align-items: end;
 }
 
+@font-face {
+    font-family: headerFont;
+    src: url("./assets/fonts/Lora/Lora-VariableFont_wght.ttf");
+}
+
 .header-image-text {
     margin: 2vw;
     color: var(--header-image-text-color);
     font-size: 6rem;
+    font-family: "headerFont", sans-serif, Helvetica, Arial;
+    letter-spacing: .2rem;
 }
