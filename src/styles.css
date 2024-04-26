@@ -16,6 +16,7 @@
     --header-image-box-shadow: 2px 2px 5px rgba(27, 27, 27, 0.26);
     --project-bg-color: rgb(245, 245, 245);
     --project-description-font-size: 0.8rem;
+    --project-line-height: 1.15;
     --contact-info-font-size: 0.8rem;
 }
 
@@ -133,6 +134,7 @@ main {
 .project {
     background-color: var(--project-bg-color);
     box-shadow: var(--header-image-box-shadow);
+    line-height: var(--project-line-height);
 }
 
 .project-image {
