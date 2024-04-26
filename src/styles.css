@@ -3,6 +3,7 @@
 }
 
 :root {
+    /* --body-bg-color: rgba(0, 0, 0, 0.034); */
     --body-bg-color: white;
     --header-image-text-color: white;
     --body-gap: 20vw;
@@ -12,7 +13,7 @@
     --footer-gap: 10px;
     font-size: 16px;
     line-height: 1.6;
-    --header-image-box-shadow: 2px 2px 10px rgb(27, 27, 27);
+    --header-image-box-shadow: 2px 2px 5px rgba(27, 27, 27, 0.26);
 }
 
 body {
