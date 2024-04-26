@@ -8,6 +8,7 @@
     --body-padding: 10px;
     --footer-bg-color: dodgerblue;
     --footer-text-color: white;
+    --footer-gap: 10px;
     font-size: 16px;
     line-height: 1.6;
 }
@@ -150,6 +151,11 @@ footer {
 
 .footer-header {
     text-align: center;
+}
+
+.footer-info {
+    display: grid;
+    gap: calc(var(--footer-gap) * 2);
 }
 
 .footer-description {
