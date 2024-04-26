@@ -163,6 +163,7 @@ main {
 .project-description {
     grid-column: 1 / -1;
     margin-bottom: 20px;
+    margin-right: 10px;
     font-size: var(--project-description-font-size);
 }
 
