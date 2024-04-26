@@ -91,7 +91,7 @@ p {
 .header-content{ 
     display: grid;
     justify-items: center;
-    gap: calc(var(--body-gap) / 2);
+    /* gap: calc(var(--body-gap) / 2); */
 }
 
 .header-icons,
