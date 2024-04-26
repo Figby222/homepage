@@ -15,6 +15,7 @@
     line-height: 1.6;
     --header-image-box-shadow: 2px 2px 5px rgba(27, 27, 27, 0.26);
     --project-bg-color: rgb(245, 245, 245);
+    --project-description-font-size: 0.8rem;
 }
 
 body {
@@ -159,6 +160,7 @@ main {
 .project-description {
     grid-column: 1 / -1;
     margin-bottom: 20px;
+    font-size: var(--project-description-font-size);
 }
 
 .footer-content {
