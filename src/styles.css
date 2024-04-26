@@ -151,6 +151,10 @@ footer {
     text-align: center;
 }
 
+.footer-description {
+    font-size: 1.1rem;
+}
+
 @media (min-width: 350px) {
     :root {
         --body-padding: 20px;
