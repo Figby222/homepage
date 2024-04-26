@@ -24,6 +24,10 @@ body {
     grid-auto-flow: row; */
 }
 
+header, main, .footer-content {
+    padding: var(--main-padding);
+}
+
 header {
     display: grid;
     grid-auto-flow: row;
