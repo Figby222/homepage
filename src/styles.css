@@ -156,6 +156,12 @@ footer {
     font-size: 1.1rem;
 }
 
+.address,
+.phone,
+.email {
+    font-size: 0.8rem;
+}
+
 @media (min-width: 350px) {
     :root {
         --body-padding: 20px;
