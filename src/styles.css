@@ -15,7 +15,6 @@
 
 body {
     margin: 0;
-    padding: var(--main-padding);
     background: dodgerblue;
     display: grid;
     justify-content: center;
