@@ -147,6 +147,10 @@ footer {
     gap: 4px;
 }
 
+.footer-header {
+    text-align: center;
+}
+
 @media (min-width: 350px) {
     :root {
         --body-padding: 20px;
