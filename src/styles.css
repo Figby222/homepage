@@ -20,8 +20,8 @@ body {
     justify-content: center;
 
     gap: var(--body-gap);
-    /* display: grid;
-    grid-auto-flow: row; */
+    display: grid;
+    grid-auto-flow: row;
 }
 
 header, main, .footer-content {
