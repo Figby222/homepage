@@ -71,7 +71,7 @@ p {
 }
 
 .header-image-container {
-    background: url(./assets/images/placeholder-portrait.jpg);
+    background: url(./assets/images/placeholder-portrait-480w.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
