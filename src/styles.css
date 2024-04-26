@@ -145,7 +145,7 @@ footer {
     color: var(--footer-text-color);
     display: grid;
     line-height: 1.15;
-    gap: 10px;
+    gap: var(--footer-gap);
 }
 
 .footer-header {
