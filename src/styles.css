@@ -103,7 +103,7 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit minmax(auto, 1fr));
 
-    gap: var(--body-gap);
+    gap: calc(var(--body-gap) * 2);
 }
 
 .project {
