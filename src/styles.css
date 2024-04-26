@@ -4,7 +4,7 @@
 
 :root {
     --header-image-text-color: white;
-    --body-gap: 10vw;
+    --body-gap: 20vw;
     --body-padding: 10px;
     font-size: 16px;
     line-height: 1.6;
@@ -25,7 +25,7 @@ body {
 header {
     display: grid;
     grid-auto-flow: row;
-    gap: var(--body-gap);
+    gap: calc(var(--body-gap) / 2);
 }
 
 ul {
@@ -75,7 +75,7 @@ p {
 .header-content{ 
     display: grid;
     justify-items: center;
-    gap: var(--body-gap)
+    gap: calc(var(--body-gap) / 2);
 }
 
 .header-icons {
@@ -96,14 +96,14 @@ main {
     display: grid;
     
     justify-items: center;
-    gap: var(--body-gap);
+    gap: calc(var(--body-gap) / 2);
 }
 
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit minmax(auto, 1fr));
 
-    gap: calc(var(--body-gap) * 2);
+    gap: calc(var(--body-gap));
 }
 
 .project {
