@@ -68,6 +68,7 @@ p {
     align-items: end;
     justify-items: center;
     box-shadow: var(--header-image-box-shadow);
+    margin: 5px;
 }
 
 @font-face {
