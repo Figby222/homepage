@@ -16,6 +16,7 @@
     --header-image-box-shadow: 2px 2px 5px rgba(27, 27, 27, 0.26);
     --project-bg-color: rgb(245, 245, 245);
     --project-description-font-size: 0.8rem;
+    --contact-info-font-size: 0.8rem;
 }
 
 body {
@@ -185,7 +186,7 @@ main {
 .address,
 .phone,
 .email {
-    font-size: 0.8rem;
+    font-size: var(--contact-info-font-size);
 }
 
 .footer-image {
