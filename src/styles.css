@@ -35,7 +35,7 @@ header, main, .footer-content {
 header {
     display: grid;
     grid-auto-flow: row;
-    gap: calc(var(--body-gap) / 2);
+    /* gap: calc(var(--body-gap) / 2); */
 }
 
 ul {
