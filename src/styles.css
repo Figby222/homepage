@@ -141,6 +141,8 @@ main {
 
 footer {
     background-color: var(--footer-bg-color);
+    display: grid;
+    gap: 4px;
 }
 
 @media (min-width: 350px) {
