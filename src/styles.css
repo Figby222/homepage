@@ -6,6 +6,7 @@
     --header-image-text-color: white;
     --body-gap: 20vw;
     --body-padding: 10px;
+    --footer-bg-color: dodgerblue;
     font-size: 16px;
     line-height: 1.6;
 }
@@ -137,6 +138,11 @@ main {
     grid-column: 1 / -1;
     margin-bottom: 20px;
 }
+
+footer {
+    background-color: var(--footer-bg-color);
+}
+
 @media (min-width: 350px) {
     :root {
         --body-padding: 20px;
