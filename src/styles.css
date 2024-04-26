@@ -29,7 +29,7 @@ body {
 
 header, main, .footer-content {
     padding: var(--main-padding);
-    padding-bottom: var(--body-gap);
+    padding-bottom: calc(var(--main-padding) * 2.4);
 }
 
 header {
