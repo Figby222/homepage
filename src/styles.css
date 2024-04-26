@@ -169,6 +169,10 @@ main {
     font-size: 0.8rem;
 }
 
+.footer-image {
+    width: 100%;
+}
+
 @media (min-width: 350px) {
     :root {
         --body-padding: 20px;
