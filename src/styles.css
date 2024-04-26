@@ -160,9 +160,7 @@ main {
 .footer-content {
     background-color: var(--footer-bg-color);
     color: var(--footer-text-color);
-    display: grid;
     line-height: 1.15;
-    gap: var(--footer-gap);
 }
 
 .footer-header {
