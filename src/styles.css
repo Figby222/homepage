@@ -7,6 +7,7 @@
     --body-gap: 20vw;
     --body-padding: 10px;
     --footer-bg-color: dodgerblue;
+    --footer-text-color: white;
     font-size: 16px;
     line-height: 1.6;
 }
@@ -141,6 +142,7 @@ main {
 
 footer {
     background-color: var(--footer-bg-color);
+    color: var(--footer-text-color);
     display: grid;
     gap: 4px;
 }
