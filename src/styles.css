@@ -98,6 +98,7 @@ main {
     justify-content: center;
     
     gap: var(--body-gap) */
+    padding-bottom: calc(var(--body-gap) * 2);
 }
 
 .projects {
