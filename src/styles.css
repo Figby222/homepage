@@ -142,7 +142,7 @@ main {
     margin-bottom: 20px;
 }
 
-footer {
+.footer-content {
     background-color: var(--footer-bg-color);
     color: var(--footer-text-color);
     display: grid;
