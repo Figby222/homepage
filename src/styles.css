@@ -274,6 +274,7 @@ footer {
     }
     
     .header-icons {
+        align-self: end;
         display: grid;
         justify-content: end;
     }
