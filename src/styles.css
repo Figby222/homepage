@@ -265,4 +265,8 @@ footer {
     .header-image-text {
         transform: none;
     }
+    
+    .header-icons {
+        display: grid;
+    }
 }
