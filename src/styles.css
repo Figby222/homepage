@@ -155,6 +155,7 @@ footer {
 .footer-info {
     display: grid;
     gap: calc(var(--footer-gap) * 2);
+    padding: var(--main-margin);
 }
 
 .footer-description {
