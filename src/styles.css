@@ -223,6 +223,10 @@ footer {
         grid-template-columns: repeat(2, 1fr)
     }
 
+    .icons {
+        grid-template-columns: 30px 30px;
+    }
+
 
     .footer-content {
         display: grid;
