@@ -109,14 +109,6 @@ p {
     margin: 15px 0;
 }
 
-main {
-    /* display: grid;
-    justify-content: center;
-    
-    gap: var(--body-gap) */
-    margin-bottom: var(--main-margin-bottom);
-}
-
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit minmax(auto, 1fr));
