@@ -220,4 +220,8 @@ footer {
     .header-icons {
         display: none;
     }
+
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr)
+    }
 }
