@@ -117,13 +117,6 @@ main {
     margin-bottom: var(--main-margin-bottom);
 }
 
-.projects {
-    display: grid;
-    
-    justify-items: center;
-    /* gap: calc(var(--body-gap) / 2); */
-}
-
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit minmax(auto, 1fr));
