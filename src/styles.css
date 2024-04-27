@@ -28,8 +28,15 @@ body {
     background: var(--body-bg-color);
 }
 
-header, main {
+header {
     margin: var(--main-margin);
+}
+
+main {
+    margin: calc(var(--main-margin) * 4);
+}
+
+header, main {
     margin-top: calc(var(--main-margin) * 2.4);
     margin-bottom: calc(var(--main-margin) * 2.4);
 }
@@ -194,6 +201,10 @@ footer {
     header {
         margin: calc(var(--main-margin) + 75px);
         margin-top: calc(var(--main-margin) + 150px);
+    }
+
+    main {
+        margin: var(--main-margin);
     }
 
     .header-content {
