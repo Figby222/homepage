@@ -215,9 +215,15 @@ main {
     .header-image {
         float: left;
         min-height: none;
-        transform-origin: bottom right;
-        transform: scale(1.2);
+        /* transform-origin: bottom right;
+        transform: scale(1.2); */
         align-content: start;
+        margin-left: -100px;
+        margin-top: -150px;
+    }
+
+    .header-image-text {
+        /* transform: translateX(400px); */
     }
 
     .header-icons {
