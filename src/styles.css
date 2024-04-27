@@ -282,4 +282,8 @@ footer {
     .projects-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .footer-content {
+        align-items: start;
+    }
 }
