@@ -205,6 +205,8 @@ main {
     .header-image-container {
         float: left;
         min-height: none;
+        transform-origin: bottom right;
+        transform: scale(1.2)
     }
 
     .header-icons {
