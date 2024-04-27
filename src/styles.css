@@ -124,6 +124,7 @@ p {
 
 .project-info {
     padding: 15px;
+    padding-bottom: 30px;
     display: grid;
     grid-template-columns: 1fr auto;
     gap: 10px;
@@ -222,6 +223,7 @@ footer {
 
     .project-info {
         padding: 30px;
+        padding-bottom: 60px;
     }
 
     .footer-content {
