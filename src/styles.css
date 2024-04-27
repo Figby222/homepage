@@ -37,6 +37,10 @@ header, main {
     padding: var(--main-margin);
 }
 
+img {
+    display: block;
+}
+
 ul {
     list-style: none;
     margin: 0;
