@@ -197,7 +197,7 @@ footer {
     }
 
     .header-content {
-        background-color: green;
+        background-color: var(--project-bg-color);
         padding: 100px 24px;
     }
     
