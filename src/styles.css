@@ -219,4 +219,9 @@ footer {
     .projects-grid {
         grid-template-columns: repeat(2, 1fr)
     }
+
+    .footer-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
