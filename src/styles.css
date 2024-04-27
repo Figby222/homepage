@@ -198,6 +198,7 @@ footer {
 
     .header-content {
         background-color: var(--project-bg-color);
+        box-shadow: var(--header-image-box-shadow);
         padding: 100px 24px;
     }
     
