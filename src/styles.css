@@ -231,4 +231,8 @@ footer {
     .footer-info {
         padding: 0;
     }
+
+    .footer-icons {
+        justify-content: start;
+    }
 }
