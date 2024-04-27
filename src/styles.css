@@ -7,8 +7,8 @@
     --body-bg-color: rgb(245, 245, 245);
     --header-image-text-color: white;
     --body-gap: 20vw;
-    --main-padding: 15px;
-    --main-padding-bottom: 10vw;
+    --main-margin: 15px;
+    --main-margin-bottom: 10vw;
     --footer-bg-color: dodgerblue;
     --footer-text-color: white;
     --footer-gap: 10px;
@@ -33,9 +33,9 @@ body {
     grid-auto-flow: row;
 }
 
-header, main, .footer-content {
-    padding: var(--main-padding);
-    padding-bottom: calc(var(--main-padding) * 2.4);
+.header-container, .projects, .footer-content {
+    margin: var(--main-margin);
+    margin-bottom: calc(var(--main-margin) * 2.4);
 }
 
 ul {
@@ -109,7 +109,7 @@ main {
     justify-content: center;
     
     gap: var(--body-gap) */
-    padding-bottom: var(--main-padding-bottom);
+    margin-bottom: var(--main-margin-bottom);
 }
 
 .projects {
@@ -162,8 +162,11 @@ main {
     font-size: var(--project-description-font-size);
 }
 
-.footer-content {
+footer {
     background-color: var(--footer-bg-color);
+}
+
+.footer-content {
     color: var(--footer-text-color);
     line-height: 1.15;
 }
@@ -200,12 +203,12 @@ main {
 @media (min-width: 1000px) {
     :root {
         font-size: 34px;
-        --main-padding: 75px;
+        --main-margin: 75px;
     }
 
-    header {
-        margin: 75px;
-        margin-top: 150px;
+    .header-container {
+        margin: calc(var(--main-margin) + 75px);
+        margin-top: calc(var(--main-margin) + 150px);
     }
 
     .header-content {
