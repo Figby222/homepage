@@ -223,5 +223,8 @@ footer {
     .footer-content {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        padding: var(--main-margin);
+        align-items: center;
+        justify-items: center;
     }
 }
