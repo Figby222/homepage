@@ -178,7 +178,7 @@ footer {
 
 @media (min-width: 1000px) {
     :root {
-        font-size: 34px;
+        font-size: 28px;
         --main-margin: 75px;
     }
 
