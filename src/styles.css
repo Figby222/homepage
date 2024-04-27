@@ -200,6 +200,7 @@ main {
 @media (min-width: 1000px) {
     :root {
         font-size: 35px;
+        --main-padding: 70px;
     }
 
     .header-content {
