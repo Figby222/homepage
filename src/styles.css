@@ -286,4 +286,8 @@ footer {
     .footer-content {
         align-items: start;
     }
+
+    .footer-info {
+        gap: calc(var(--footer-gap) * 4);
+    }
 }
