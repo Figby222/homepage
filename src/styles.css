@@ -268,5 +268,6 @@ footer {
     
     .header-icons {
         display: grid;
+        justify-content: end;
     }
 }
