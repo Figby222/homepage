@@ -267,7 +267,7 @@ footer {
     }
 
     .header-content {
-        padding: 15px;
+        padding: 30px;
         display: grid;
         grid-template-rows: auto auto auto;
         align-items: center;
