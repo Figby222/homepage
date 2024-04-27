@@ -190,6 +190,10 @@ footer {
         --main-margin: 75px;
     }
 
+    h2, h3 {
+        text-align: left;
+    }
+
     header {
         margin: calc(var(--main-margin) + 75px);
         margin-top: calc(var(--main-margin) + 150px);
