@@ -223,7 +223,7 @@ main {
     }
 
     .header-image-text {
-        /* transform: translateX(400px); */
+        transform: translateX(400px);
     }
 
     .header-icons {
