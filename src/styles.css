@@ -250,6 +250,7 @@ footer {
 @media (min-width: 1000px) {
     .header-image {
         align-content: end;
+        margin: 0;
     }
 
     .header-image-text {
