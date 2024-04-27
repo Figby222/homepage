@@ -91,12 +91,6 @@ p {
     letter-spacing: .2rem;
 }
 
-.header-content{ 
-    display: grid;
-    justify-items: center;
-    /* gap: calc(var(--body-gap) / 2); */
-}
-
 .header-icons,
 .footer-icons {
     display: grid;
