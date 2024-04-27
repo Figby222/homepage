@@ -248,5 +248,7 @@ footer {
 }
 
 @media (min-width: 1000px) {
-    
+    .header-image {
+        align-content: end;
+    }
 }
