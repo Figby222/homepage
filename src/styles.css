@@ -33,9 +33,14 @@ body {
     grid-auto-flow: row;
 }
 
-.header-container, .projects, .footer-content {
-    margin: var(--main-margin);
-    margin-bottom: calc(var(--main-margin) * 2.4);
+header, main {
+    /* margin: var(--main-margin); */
+    /* margin-top: calc(var(--main-margin) * 2.4); */
+    /* margin-bottom: calc(var(--main-margin) * 2.4); */
+}
+
+.footer-content {
+    /* add padding  */
 }
 
 ul {
@@ -206,9 +211,9 @@ footer {
         --main-margin: 75px;
     }
 
-    .header-container {
-        margin: calc(var(--main-margin) + 75px);
-        margin-top: calc(var(--main-margin) + 150px);
+    header {
+        /* margin: calc(var(--main-margin) + 75px);
+        margin-top: calc(var(--main-margin) + 150px); */
     }
 
     .header-content {
