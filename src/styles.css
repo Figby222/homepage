@@ -155,10 +155,6 @@ footer {
     line-height: 1.15;
 }
 
-.footer-header {
-    text-align: center;
-}
-
 .footer-info {
     display: grid;
     gap: calc(var(--footer-gap) * 2);
