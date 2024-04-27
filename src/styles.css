@@ -15,6 +15,7 @@
     font-size: 16px;
     line-height: 1.6;
     --header-image-box-shadow: 2px 2px 5px rgba(27, 27, 27, 0.26);
+    --projects-gap: 68px;
     --project-bg-color: rgb(245, 245, 245);
     --project-description-font-size: 0.8rem;
     --project-line-height: 1.15;
@@ -130,7 +131,7 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit minmax(auto, 1fr));
 
-    gap: calc(var(--body-gap));
+    gap: var(--projects-gap);
 }
 
 .project {
