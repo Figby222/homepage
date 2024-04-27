@@ -258,8 +258,10 @@ footer {
     .header-image {
         align-content: end;
         margin: 0;
+        transform-origin: center right;
+        transform: scale(1.2);
     }
-    
+
     .header-image-text {
         transform: none;
     }
