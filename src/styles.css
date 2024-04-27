@@ -234,5 +234,6 @@ footer {
 
     .footer-icons {
         justify-content: start;
+        grid-template-columns: 100px 100px;
     }
 }
