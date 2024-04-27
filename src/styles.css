@@ -216,7 +216,8 @@ main {
         float: left;
         min-height: none;
         transform-origin: bottom right;
-        transform: scale(1.2)
+        transform: scale(1.2);
+        align-content: start;
     }
 
     .header-icons {
