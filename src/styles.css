@@ -40,7 +40,7 @@ header, main {
 }
 
 .footer-content {
-    /* add padding  */
+    padding: var(--main-margin);
 }
 
 ul {
