@@ -251,4 +251,8 @@ footer {
     .header-image {
         align-content: end;
     }
+
+    .header-image-text {
+        transform: none;
+    }
 }
