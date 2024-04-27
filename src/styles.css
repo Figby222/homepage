@@ -128,10 +128,6 @@ p {
     gap: 10px;
 }
 
-.project-title {
-    text-align: center;
-}
-
 .icons {
     display: grid;
     grid-template-columns: 20px 20px;
