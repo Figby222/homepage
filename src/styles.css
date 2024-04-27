@@ -269,8 +269,8 @@ footer {
     .header-content {
         padding: 30px;
         display: grid;
-        grid-template-rows: auto auto auto;
-        align-items: center;
+        /* grid-template-rows: auto auto auto;
+        align-items: space-evenly; */
     }
     
     .header-icons {
