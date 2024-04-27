@@ -8,6 +8,7 @@
     --header-image-text-color: white;
     --body-gap: 20vw;
     --main-padding: 15px;
+    --main-padding-bottom: 10vw;
     --footer-bg-color: dodgerblue;
     --footer-text-color: white;
     --footer-gap: 10px;
@@ -115,7 +116,7 @@ main {
     justify-content: center;
     
     gap: var(--body-gap) */
-    padding-bottom: calc(var(--body-gap) * 2);
+    padding-bottom: var(--main-padding-bottom);
 }
 
 .projects {
