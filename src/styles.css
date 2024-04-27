@@ -200,8 +200,13 @@ main {
 @media (min-width: 1000px) {
     :root {
         font-size: 34px;
-        --main-padding: 150px;
+        --main-padding: 75px;
     }
+
+    /* header {
+        margin: 75px;
+        margin-top: 150px;
+    } */
 
     .header-content {
         background-color: green;
