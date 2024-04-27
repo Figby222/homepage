@@ -203,26 +203,16 @@ main {
         --main-padding: 75px;
     }
 
-    /* header {
+    header {
         margin: 75px;
         margin-top: 150px;
-    } */
+    }
 
     .header-content {
         background-color: green;
-        /* margin: 100px;
-        margin-top: 300px; */
     }
-
-    /* .header-image-wrapper {
-        float: left;
-        display: flex;
-        margin-left: -100px;
-        margin-top: -100px;
-    } */
     
     .header-image {
-        /* flex: 1; */
         float: left;
         min-height: none;
         transform-origin: bottom right;
