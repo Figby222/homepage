@@ -204,3 +204,9 @@ main {
         --body-padding: 20px;
     }
 }
+
+@media (min-width: 1000px) {
+    :root {
+        font-size: 40px;
+    }
+}
