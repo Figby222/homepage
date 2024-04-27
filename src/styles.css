@@ -204,10 +204,10 @@ main {
         font-size: 40px;
     }
 
-    /* .header-image-container {
+    .header-image-container {
         float: left;
         min-height: none;
-    } */
+    }
 
     .header-icons {
         display: none;
