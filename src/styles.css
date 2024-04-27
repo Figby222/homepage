@@ -199,7 +199,13 @@ main {
 
 @media (min-width: 1000px) {
     :root {
-        font-size: 40px;
+        font-size: 35px;
+    }
+
+    .header-content {
+        background-color: green;
+        /* margin: 100px;
+        margin-top: 300px; */
     }
 
     .header-image-container {
