@@ -265,6 +265,10 @@ footer {
     .header-image-text {
         transform: none;
     }
+
+    .header-content {
+        padding: 15px;
+    }
     
     .header-icons {
         display: grid;
