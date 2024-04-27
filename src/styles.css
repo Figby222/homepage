@@ -20,6 +20,7 @@
     --project-description-font-size: 0.8rem;
     --project-line-height: 1.15;
     --contact-info-font-size: 0.8rem;
+    --project-info-padding: 15px;
 }
 
 body {
@@ -123,8 +124,8 @@ p {
 }
 
 .project-info {
-    padding: 15px;
-    padding-bottom: 30px;
+    padding: var(--project-info-padding);
+    padding-bottom: calc(var(--project-info-padding) * 2);
     display: grid;
     grid-template-columns: 1fr auto;
     gap: 10px;
@@ -183,6 +184,7 @@ footer {
     :root {
         font-size: 28px;
         --main-margin: 75px;
+        --project-info-padding: 30px;
     }
 
     h2, h3 {
@@ -221,10 +223,6 @@ footer {
         grid-template-columns: repeat(2, 1fr)
     }
 
-    .project-info {
-        padding: 30px;
-        padding-bottom: 60px;
-    }
 
     .footer-content {
         display: grid;
