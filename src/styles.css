@@ -203,4 +203,13 @@ main {
     :root {
         font-size: 40px;
     }
+
+    /* .header-image-container {
+        float: left;
+        min-height: none;
+    } */
+
+    .header-icons {
+        display: none;
+    }
 }
