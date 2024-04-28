@@ -11,14 +11,6 @@ module.exports = {
     clean: true,
     assetModuleFilename: "assets/[name][hash][ext][query]",
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: "./src/template.html",
-      title: "Production",
-      inject: "head",
-      scriptLoading: "defer",
-    }),
-  ],
   module: {
     rules: [
         {
@@ -56,4 +48,12 @@ module.exports = {
         
     ]
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./src/template.html",
+      title: "Production",
+      inject: "head",
+      scriptLoading: "defer",
+    }),
+  ],
 };
