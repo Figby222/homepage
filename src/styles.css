@@ -293,4 +293,10 @@ footer {
     .footer-info {
         gap: calc(var(--footer-gap) * 4);
     }
+
+    .contact-info-container {
+        display: grid;
+        grid-template-columns: 30px 1fr;
+        gap: 10px
+    }
 }
