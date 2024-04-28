@@ -37,16 +37,6 @@ module.exports = {
             }
         },
         {
-          test: /\.jpe?g$|\.gif$|\.png$|\.PNG$|\.svg$|\.woff(2)?$|\.ttf$|\.eot$/,
-          use: {
-            loader: "file-loader",
-            options: {
-              name: "[name].[ext]"
-            }  
-
-          }
-        },
-        {
           test: /\.(png|svg|jpg|jpeg|gif)$/i,
           type: "asset/resource",
         },
